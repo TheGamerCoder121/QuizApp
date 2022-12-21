@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>My First Web Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
-<body>
-    <div id="animationWindow">
-</div>
-    <h1>My First Web Page</h1>
-    <p>My first paragraph.</p>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.10.1/bodymovin.min.js"></script>
+<body>
+    <div id="loader">
+        <div class="flex-container">
+            <div class="row">
+                <div class="box">
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_4x9a2h9p.json"
+                        background="transparent" speed="1" style="width: 800px; height: 800px" loop
+                        autoplay></lottie-player>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="flex-container">
+            <div class="row">
+                <div class="box">
+                    <h1>My First Web Page</h1>
+                    <p>My first paragraph.</p>
+                </div>
+            </div>
+        </div>
+
+
     <script src="main.js"></script>
 </body>
+
 </html>
